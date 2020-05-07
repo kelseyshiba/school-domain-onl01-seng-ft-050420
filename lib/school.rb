@@ -26,7 +26,7 @@ class School
   end
   
   def sort
-    sorted_roster = []
+    sorted_roster = {}
     @roster.keys.sort
     @roster.values.sort
     sorted_roster << @roster
