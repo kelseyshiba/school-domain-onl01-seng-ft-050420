@@ -26,7 +26,8 @@ class School
   end
   
   def sort
-    @roster.min_by
+    @roster.sort_by {|grade, name| grade}
+    @roster
   end
   
 end
