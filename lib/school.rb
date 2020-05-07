@@ -27,7 +27,8 @@ class School
   
   def sort
     sorted_roster = {}
-    
+    @roster.each do |keys|
+      keys.sort 
     @roster.keys.sort
     @roster.values.sort
     sorted_roster << @roster
