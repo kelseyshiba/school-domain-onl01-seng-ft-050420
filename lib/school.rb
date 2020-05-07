@@ -29,7 +29,6 @@ class School
     sorted_roster = {}
     @roster.each do |keys, values|
       
-      values.sort
     sorted_roster << @roster
     sorted_roster
   end
