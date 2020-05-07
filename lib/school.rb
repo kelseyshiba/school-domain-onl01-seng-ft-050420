@@ -26,7 +26,7 @@ class School
   end
   
   def sort
-    
+    @roster.min_by
   end
   
 end
